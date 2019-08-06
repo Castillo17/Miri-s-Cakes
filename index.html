@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/bf309d7dfb.js"></script>
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet"> 
+    <title>Miri's - Cakes</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Miri's Cakes</h1></a>
+                <ul class="nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>Welcome To My Bakery</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci similique quasi repellat laboriosam pariatur ipsa labore blanditiis quo nostrum!</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+            <img src="img/logo.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Overlay Text -->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Fresh & Sweet</h3>
+                <h2>People Aren't Tasting All The Sweetness</h2>
+                <p>Place your next cake order with us and enjoy our variety of ingridient options.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+        <div class="gallery">
+            <a href="img/birthday-cakes.jpg" class="big"><img src="img/birthday-cakes.jpg" alt=""></a>
+            <a href="img/pasteles.jpg" class="big"><img src="img/pasteles.jpg" alt=""></a>
+            <a href="img/cake-gallery2.jpg" class="big"><img src="img/cake-gallery2.jpg" alt=""></a>
+            <a href="img/cake-gallery.jpg" class="big"><img src="img/cake-gallery.jpg" alt=""></a>
+            <a href="img/cake-gallery3.jpg" class="big"><img src="img/cake-gallery3.jpg" alt=""></a>
+            <a href="img/cake-gallery4.jpg" class="big"><img src="img/cake-gallery4.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+         <div class="container">
+             <div>
+                 <h2>Follow Us On Facebook.</h2>
+               
+                <a href="https://www.facebook.com/MirisCakesBakery/" target="_blank">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+              
+             </div>
+             <div>
+                 <h3>Location &amp; Hours</h3>
+                 <p> <a href="https://www.google.com/maps/dir//Miri%E2%80%99s+Cakes/@41.9343302,-88.1499515,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880fad5660e8f607:0xd085edddab62ddaf!2m2!1d-88.0799116!2d41.9343515"> 2047 Bloomingdale Rd <br />
+                   Glendale Heights, IL 60138 <br /></a>
+                   <a href="12246538378">(224) 653-8378</a></p>
+                   <p>Monday - Closed</p> 
+                    <p>Tue - Fri: 8 a.m. - 8 p.m.</p>
+                   <p>Sat - Sun: 8 a.m - 5 p.m.</p>
+             </div>
+            
+             <div>
+                 <h3>Subscribe</h3>
+                 <p>Subscribe to our newsletter.</p>
+                 <form name="email-form" method="post" data-netlify="true">
+                     <div class="email-form">
+                         <span class="form-control-wrap">
+                             <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email">
+                         </span>
+                         <button type="submit" class="form-control submit">
+                            <i class="fas fa-chevron-right"></i>
+                         </button>
+                     </div>
+                 </form>
+             </div>
+         </div>
+    </footer>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function() {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+</html>
